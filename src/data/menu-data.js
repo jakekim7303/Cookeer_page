@@ -1,0 +1,108 @@
+/**
+ * 도시락 메뉴 카테고리 목록
+ */
+export const MENU_CATEGORIES = ['전체', '저칼로리', '고단백', '비건'];
+
+/**
+ * 도시락 메뉴 목록
+ * - kcal: 1식 기준 열량
+ * - protein: 1식 기준 단백질(g)
+ */
+export const MENUS = [
+  {
+    id: 'chicken-poke',
+    name: '닭가슴살 현미 포케',
+    description: '수비드 닭가슴살과 현미밥, 아보카도를 담은 든든한 한 끼',
+    category: '고단백',
+    emoji: '🥗',
+    color: '#E6F2EB',
+    kcal: 450,
+    protein: 34,
+    price: 9900,
+    isBest: true,
+  },
+  {
+    id: 'salmon-quinoa',
+    name: '연어 퀴노아 볼',
+    description: '오메가3 가득한 구운 연어와 퀴노아, 제철 채소 구성',
+    category: '고단백',
+    emoji: '🍣',
+    color: '#FDEEE5',
+    kcal: 520,
+    protein: 31,
+    price: 12900,
+    isBest: true,
+  },
+  {
+    id: 'tofu-mushroom',
+    name: '두부 버섯 덮밥',
+    description: '부드러운 두부와 표고·새송이 버섯을 간장 소스로 볶아낸 덮밥',
+    category: '비건',
+    emoji: '🍄',
+    color: '#F3EEE6',
+    kcal: 410,
+    protein: 22,
+    price: 8900,
+    isBest: false,
+  },
+  {
+    id: 'beef-konjac',
+    name: '소고기 곤약 비빔밥',
+    description: '곤약밥으로 칼로리는 낮추고 한우 불고기로 맛은 살린 비빔밥',
+    category: '저칼로리',
+    emoji: '🍱',
+    color: '#FFF4D9',
+    kcal: 380,
+    protein: 26,
+    price: 10900,
+    isBest: false,
+  },
+  {
+    id: 'chickpea-curry',
+    name: '병아리콩 커리 플레이트',
+    description: '병아리콩과 단호박을 넣은 순한 커리와 귀리밥',
+    category: '비건',
+    emoji: '🍛',
+    color: '#FFF0DB',
+    kcal: 470,
+    protein: 19,
+    price: 9500,
+    isBest: false,
+  },
+  {
+    id: 'smoked-duck',
+    name: '훈제오리 채소 도시락',
+    description: '기름기를 뺀 훈제오리와 구운 채소, 잡곡밥 구성',
+    category: '고단백',
+    emoji: '🦆',
+    color: '#EEF0E6',
+    kcal: 490,
+    protein: 30,
+    price: 11500,
+    isBest: false,
+  },
+  {
+    id: 'shrimp-broccoli',
+    name: '새우 브로콜리 볶음밥',
+    description: '탱글한 새우와 브로콜리를 컬리플라워 라이스로 가볍게 볶았어요',
+    category: '저칼로리',
+    emoji: '🍤',
+    color: '#FDE9E4',
+    kcal: 400,
+    protein: 25,
+    price: 10500,
+    isBest: false,
+  },
+  {
+    id: 'lentil-salad',
+    name: '그릴드 채소 렌틸 샐러드',
+    description: '렌틸콩과 구운 가지·파프리카에 발사믹 드레싱을 곁들인 샐러드',
+    category: '저칼로리',
+    emoji: '🥙',
+    color: '#E9F3E1',
+    kcal: 360,
+    protein: 18,
+    price: 8900,
+    isBest: false,
+  },
+];
